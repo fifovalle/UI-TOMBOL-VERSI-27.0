@@ -22,16 +22,16 @@ button {
   border: none;
   border-radius: 5px;
   background: #e53170;
-  box-shadow: rgba(251, 63, 169, 0.2) 0px 40px 29px 0px;
+  box-shadow: rgba(251, 64, 169, 0.2) 0px 40px 29px 0px;
   will-change: transform;
   transition: all 0.3s;
   border-bottom: 2px solid #f25f4c;
 }
 
 button:hover {
-  transform: perspective(180px) rotateX(30deg) translateY(2px);
+  transform: perspective(180px) rotateX(30deg) rotateY(2deg);
 }
 
 button:active {
-  transform: perspective(170px) rotateX(36deg) translateY(5px);
+  transform: perspective(170px) rotateX(36deg) rotateY(5deg);
 }
